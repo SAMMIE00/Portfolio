@@ -79,6 +79,7 @@ nav .fa-solid{
 .about{
     padding-left: 2%;
     padding-top: 2%;
+    margin-right: 50%;
 }
 .about P{
     font-size: 18px;
@@ -95,8 +96,10 @@ nav .fa-solid{
     align-items: center;
     margin-left: 40%;
     bottom: 0%;
-    position: absolute;
+    left:0%;
+    position: fixed;
     font-size: 35px;
+    width:100%;
 }
 .footer-icons a{
     padding: 5px;
@@ -106,13 +109,13 @@ nav .fa-solid{
         .nav-links ul li {
                 display: block;
         }
-        .nav-links {
+        /*.nav-links {
             height: 100vh;
             width: 180px;
             background: blue;
             float: right;
             top: 0;
-        }
+        }*/
         .text P {
                 font-size: 15px;
                 color: black;
@@ -161,9 +164,9 @@ nav .fa-solid{
                 display: block;
         }
 
-        .nav-links {
+        /*.nav-links {
                 background: blue;
-        }
+        }*/
 
         .text P {
                 font-size: 15px;
